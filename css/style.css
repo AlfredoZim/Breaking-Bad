@@ -1,66 +1,74 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: 'Noto Sans JP', sans-serif;
-    background: url('../img/bg.png');
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  background: url("../img/bg.png");
 }
-header{
-    background-color: rgb(4, 56, 4);
-    height: 15rem;
+header {
+  background-color: rgb(4, 56, 4);
+  height: 15rem;
 }
-header .title h2{
-    color: whitesmoke;
-    font-size: 3rem;
+header .title h2 {
+  color: whitesmoke;
+  font-size: 3rem;
 }
-
-header .mask{
-    margin-left: 20%;
+header .mask {
+  margin-left: 20%;
 }
-
-header .row .select{
-    height:3rem;
+header .row .select {
+  height: 3rem;
 }
-header .row .select button img{
-    height: 100%;
+header .row .select button img {
+  height: 100%;
 }
-section .container{
-    background: rgba(255, 255, 255, .85);
-    
+/*________________________________________________________*/
+section .container {
+  background: rgba(255, 255, 255, 0.85);
 }
-section .container #data .nick{
-    border: .2rem solid rgb(4, 56, 4);
-    border-radius: 0rem 0rem 1rem 1rem;
+section .container #data .nick {
+  border: 0.2rem solid rgb(4, 56, 4);
+  border-radius: 0rem 0rem 1rem 1rem;
 }
-section .container #data .nick .car{
-    height: 3rem;
+section .container #data .nick .car {
+  height: 3rem;
 }
 
-section .container #data .names{
-    padding: 1rem 2rem;
+section .container #data .names {
+  padding: 1rem 2rem;
 }
-
-/*______________________________________________________*/
+/*________________________________________________________*/
+footer {
+  margin-top: 0;
+}
+footer #phrases {
+  background: rgba(4, 56, 4, 0.5);
+  color: whitesmoke;
+}
+footer .myname {
+  background-color: rgba(4, 56, 4, 0.8);
+}
+/*________________________________________________________*/
 @media screen and (max-width: 1200px) {
-    header .mask{
-        margin-left: 15%;
-    }
+  header .mask {
+    margin-left: 15%;
+  }
 }
 
 @media screen and (max-width: 992px) {
-    header .mask{
-        margin-left: 10%;
-    }
+  header .mask {
+    margin-left: 10%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    header .mask{
-        margin-left: 3%;
-    }
+  header .mask {
+    margin-left: 3%;
+  }
 }
 @media screen and (max-width: 576px) {
-    header .mask{
-        display: none;
-    }
+  header .mask {
+    display: none;
+  }
 }
